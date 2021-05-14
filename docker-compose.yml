@@ -1,7 +1,7 @@
 services:
   details:
     build: .
-    image: ghcr.io/jeongchedah/bookinfo-details
+    image: ghcr.io/jeongchedah/bookinfo-details:prd
     ports:
       - "9080:9080"
     environment:
