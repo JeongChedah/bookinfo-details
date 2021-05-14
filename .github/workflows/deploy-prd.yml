@@ -41,4 +41,4 @@ jobs:
     runs-on: ubuntu-20.04          
     steps:
       - name: Acceptance Test
-        run: curl http://bookinfo.opsta.net/student26/details/health | grep "Details is  healthy"
+        run: curl http://bookinfo.opsta.net/student26/details/health | grep "Details is healthy"
